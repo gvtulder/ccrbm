@@ -1,0 +1,3 @@
+[submodule "morb-repo"]
+	path = morb-repo
+	url = https://github.com/gvtulder/morb.git

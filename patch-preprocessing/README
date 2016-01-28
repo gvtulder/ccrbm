@@ -1,0 +1,45 @@
+The files in this folder can be used to extract patches from the DICOM
+files in the ILD dataset. For the dataset, see the description in
+
+  Building a reference multimedia database for interstitial lung diseases
+  by Adrien Depeursinge et al.
+  in Computerized Medical Imaging and Graphics (April 2012)
+  http://dx.doi.org/10.1016/j.compmedimag.2011.07.003
+
+The dataset is available on request, see
+
+  http://medgift.hevs.ch/silverstripe/index.php/team/adrien-depeursinge/multimedia-database-of-interstitial-lung-diseases/
+
+Once you have downloaded the data, the MATLAB scripts in this folder can
+be used to extract labelled patches from the DICOM files.
+
+  * extract_all.m loops over all subjects
+  * extract_one.m loads one subject and saves a .mat file with patches
+  * extract_ild_patch.m does the actual work of extracting the patches
+
+The scripts extract 2D patches of 32x32 voxels. A patch is included if
+at least 75 percent of the voxels in that patch belong to the same tissue
+class. This approach is roughly similar to that used in
+
+  Multiscale lung texture signature learning using the Riesz transform
+  by Adrien Depeursinge et al.
+  in MICCAI (2012)
+
+and other papers that use the same dataset. Unfortunately, the number of
+patches extracted differ slightly between papers, which suggests that the
+rules can be implemented in different ways.
+
+The implementation provided here was used for the experiments in
+
+  Learning features for tissue classification with the classification
+  restricted Boltzmann machine
+  by Gijs van Tulder and Marleen de Bruijne
+  in Medical Computer Vision: Algorithms for Big Data (2014)
+
+and in
+
+  Combining Generative and Discriminative Representation Learning
+  for Lung CT Analysis with Convolutional Restricted Boltzmann Machines
+  by Gijs van Tulder and Marleen de Bruijne
+  in IEEE Transactions on Medical Imaging (2016)
+

@@ -1,0 +1,4 @@
+The scripts in this directory have been used to generate filters
+for the Leung-Malik and Schmidt filter banks. The MATLAB code was
+downloaded from
+http://www.robots.ox.ac.uk/~vgg/research/texclass/filters.html

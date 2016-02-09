@@ -5,11 +5,11 @@ classification restricted Boltzmann machines.
 
 The code provided here was used for the experiments in
 
-> Combining Generative and Discriminative Representation Learning
-> for Lung CT Analysis with Convolutional Restricted Boltzmann Machines
-> by Gijs van Tulder and Marleen de Bruijne
-> in IEEE Transactions on Medical Imaging (2016)
-> http://dx.doi.org/10.1109/TMI.2016.2526687
+> Combining Generative and Discriminative Representation Learning  
+> for Lung CT Analysis with Convolutional Restricted Boltzmann Machines  
+> by Gijs van Tulder and Marleen de Bruijne  
+> in IEEE Transactions on Medical Imaging (2016)  
+> http://dx.doi.org/10.1109/TMI.2016.2526687  
 
 If you have any questions, comments or are using this code for something
 interesting, we would love to know. We would also appreciate it if you
@@ -21,11 +21,11 @@ For the most recent version of these files, see
 
 February 2016
 
-Gijs van Tulder
+Gijs van Tulder  
 http://vantulder.net/
 
-Biomedical Imaging Group Rotterdam
-Erasmus MC, Rotterdam, the Netherlands
+Biomedical Imaging Group Rotterdam  
+Erasmus MC, Rotterdam, the Netherlands  
 http://www.bigr.nl/
 
 
@@ -35,9 +35,9 @@ Data
 The experiments were done on data from a public dataset for interstital
 lung diseases, which is described in
 
-> Building a reference multimedia database for interstitial lung diseases
-> by Adrien Depeursinge et al.
-> in Computerized Medical Imaging and Graphics (April 2012)
+> Building a reference multimedia database for interstitial lung diseases  
+> by Adrien Depeursinge et al.  
+> in Computerized Medical Imaging and Graphics (April 2012)  
 > http://dx.doi.org/10.1016/j.compmedimag.2011.07.003
 
 Once you have a copy of this dataset, you can use the MATLAB scripts in
@@ -86,6 +86,6 @@ these filters can be found in the `filter-banks/` directory.
 
 Copyright and license
 ---------------------
-Copyright (c) 2016 Gijs van Tulder / Erasmus MC, the Netherlands
+Copyright (c) 2016 Gijs van Tulder / Erasmus MC, the Netherlands.  
 This code is licensed under the MIT license. See LICENSE for details.
 

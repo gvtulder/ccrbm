@@ -9,6 +9,7 @@ The code provided here was used for the experiments in
 > for Lung CT Analysis with Convolutional Restricted Boltzmann Machines
 > by Gijs van Tulder and Marleen de Bruijne
 > in IEEE Transactions on Medical Imaging (2016)
+> http://dx.doi.org/10.1109/TMI.2016.2526687
 
 If you have any questions, comments or are using this code for something
 interesting, we would love to know. We would also appreciate it if you
